@@ -44,7 +44,7 @@ export default function JoinUs() {
                     transition={{ duration: 1, delay: 0 }}
                     className="main-title flex-grow w-1/3"
                 >
-                    <div className="flex flex-col items-center justify-center text-left text-theme-dark bg-white w-full xl:w-[800px] mx-auto p-8 md:px-32 gap-8 rounded-2xl">
+                    <div className="card flex flex-col items-center justify-center text-left text-theme-dark bg-white w-full xl:w-[800px] mx-auto p-8 md:px-32 gap-8 rounded-2xl">
                         <h1 className="text-[56px] text-theme-dark">
                             <span className="text-[56px] text-theme-blue">Join</span>
                             us
