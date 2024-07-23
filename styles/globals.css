@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dash-animation {
+    animation: grow 10s infinite alternate;
+    background-color: #0474f1;
+}
+
+@keyframes grow {
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: calc(100vh - 15px);
+    }
+}
+
+.dash-animation-r {
+    animation: grow-r 10s infinite alternate;
+    background-color: #0474f1;
+}
+
+@keyframes grow-r {
+    0% {
+        top: calc(100vh - 15px);
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+/* custom cursor */
+.cursor-outer {
+    margin-left: -16px;
+    margin-top: -16px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    z-index: 10000000;
+    opacity: 1;
+    transition: all 0.2s ease-out;
+    mix-blend-mode: difference;
+
+    &.cursor-hover {
+        opacity: 0;
+    }
+
+    &.cursor-big {
+        opacity: 0;
+    }
+}
+
+.mouseCursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translateZ(0);
+    visibility: visible;
+    text-align: center;
+}
+
+.cursor-inner {
+    margin-left: -5px;
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    z-index: 50;
+    background-color: white;
+    opacity: 1;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+        margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    mix-blend-mode: difference;
+
+    span {
+        color: white;
+        line-height: 60px;
+        opacity: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    &.cursor-hover {
+        margin-left: -15px;
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        opacity: 0;
+    }
+
+    &.cursor-big {
+        width: 160px;
+        height: 160px;
+        margin-left: -80px;
+        margin-top: -80px;
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: #ffffff;
+    color: #334155;
+    font-family: "Jost" !important;
+}
+
+nav {
+    background-color: initial !important;
+    padding: 10px 0 !important;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bolder;
+}
+
+header {
+    max-width: 1200px !important;
+}
+
+.customCard {
+    background-color: #212223;
+    border-radius: 24px;
+}
+
+.customBtn {
+    background-color: #0474f1;
+    border: 2px solid #0474f1 !important;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0474f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.number {
+    color: #212223;
+    -webkit-text-stroke: 1px #b5b0b0;
+    text-shadow: 0px 1px 4px #23430C;
+    --tw-text-opacity: 1;
+    font-weight: 800;
+}
+
+.to-top-progress {
+    z-index: 1 !important;
+}
+
+.text-theme {
+    color: #0474f1 !important;
+}
+
+.swiper-pagination {
+    display: none;
+}
