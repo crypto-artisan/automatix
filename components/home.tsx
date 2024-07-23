@@ -61,7 +61,7 @@ export default function MyHome() {
                             y: 0,
                         },
                     }}
-                    transition={{ duration: 1, delay: 1 }}
+                    transition={{ duration: 1, delay: 0.1 }}
                     className="main-title"
                 >
                     <h1 className="text-[36px] md:text-[56px] text-theme-blue">
@@ -82,7 +82,7 @@ export default function MyHome() {
                             y: 0,
                         },
                     }}
-                    transition={{ duration: 1, delay: 2 }}
+                    transition={{ duration: 1, delay: 0.3 }}
                     className="main-title"
                 >
                     <h1 className="text-[56px] text-theme-blue">
@@ -102,7 +102,7 @@ export default function MyHome() {
                             y: 0,
                         },
                     }}
-                    transition={{ duration: 1, delay: 3 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="main-title"
                 >
                     <h1 className="text-[24px]">
@@ -122,7 +122,7 @@ export default function MyHome() {
                             y: 0,
                         },
                     }}
-                    transition={{ duration: 1, delay: 3 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="main-title"
                 >
                     <div className="flex flex-row gap-2 md:gap-4 py-8">
