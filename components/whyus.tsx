@@ -44,7 +44,7 @@ export default function WhyUs() {
                     transition={{ duration: 1, delay: 0.8 }}
                     className="main-title w-full md:w-1/3 h-full"
                 >
-                    <div className="flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
+                    <div className="card flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
                         <Image src="/assets/service1.png" alt="service" width={80} height={100} />
                         <h1 className="text-[24px] leading-7">Simplified AI Deployment</h1>
                         <p className="text-[18px] opacity-80">Automatix automates AI installation and configuration, requiring no technical expertise.</p>
@@ -68,7 +68,7 @@ export default function WhyUs() {
                     transition={{ duration: 1, delay: 0.5 }}
                     className="main-title w-full md:w-1/3 h-full"
                 >
-                    <div className="flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
+                    <div className="card flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
                         <Image src="/assets/service2.png" alt="service" width={80} height={100} />
                         <h1 className="text-[24px] leading-7">Customizable Computing Power</h1>
                         <p className="text-[18px] opacity-80">Select from pre-configured bundles tailored to your project needs.</p>
@@ -92,7 +92,7 @@ export default function WhyUs() {
                     transition={{ duration: 1, delay: 0 }}
                     className="main-title flex-grow w-full md:w-1/3 h-full"
                 >
-                    <div className="flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
+                    <div className="card flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
                         <Image src="/assets/service3.png" alt="service" width={80} height={100} />
                         <h1 className="text-[24px] leading-7">Pay as you go model</h1>
                         <p className="text-[18px] opacity-80">Users will be charged based on the computing resources utilized for deploying and managing their Al/ML models.</p>
@@ -117,7 +117,7 @@ export default function WhyUs() {
                     transition={{ duration: 1, delay: 0.8 }}
                     className="main-title w-full md:w-1/3 h-full"
                 >
-                    <div className="flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
+                    <div className="card flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
                         <Image src="/assets/service4.png" alt="service" width={80} height={100} />
                         <h1 className="text-[24px] leading-7">User-Friendly Interface</h1>
                         <p className="text-[18px] opacity-80">Navigate easily with our intuitive interface designed for all users.</p>
@@ -141,7 +141,7 @@ export default function WhyUs() {
                     transition={{ duration: 1, delay: 0.5 }}
                     className="main-title w-full md:w-1/3 h-full"
                 >
-                    <div className="flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
+                    <div className="card flex flex-col h-full text-left text-theme-dark bg-white p-8 gap-4 rounded-xl">
                         <Image src="/assets/service5.png" alt="service" width={80} height={100} />
                         <h1 className="text-[24px] leading-7">Scalable Cloud Resources</h1>
                         <p className="text-[18px] opacity-80">Leverage cloud-based GPU resources for intensive AI tasks without needing local high-end hardware.</p>

@@ -1,221 +1,50 @@
-// 5.23 category section styles
-.category {
-  .category-overview__single {
-    a {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      position: relative;
-      z-index: 1;
-      margin: 7px;
-      span {
-        @include box(100px);
-        background-color: var(--primary-color);
-        color: #191b1a;
-        outline-offset: 7px;
-        outline: 1px solid #ffffff;
-        font-weight: 700;
-      }
-      img {
-        width: 80%;
-        height: 80%;
-        border-radius: 10px;
-        position: absolute;
-        inset: 0px;
-        left: unset;
-        z-index: -1;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-    }
-  }
+//partner slider
+// 5.06 partner section styles
+.skill-slider {
+  position: relative;
+  z-index: 1;
 
-  hr {
-    margin: 60px 0px;
-    height: 1px;
-    width: 100%;
-    background-color: #ffffff20;
-  }
-
-  .category-filter {
+  .slick-track {
     display: flex;
     align-items: center;
-    gap: 12px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 60px;
-    button {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      border-radius: 10px;
-      background: rgba(255, 255, 255, 0.15);
-      color: white;
-      padding: 8px 16px;
-      font-size: 16px;
-      line-height: 30px;
-      img {
-        border-radius: 10px;
-      }
+  }
 
+  .partner__slider-single {
+    text-align: center;
+    img {
+      filter: grayscale(100%);
+      transition: filter 0.3s ease;
+      max-width: 10vw;
+      min-width: 50px;
       &:hover {
-        background-color: var(--primary-color);
-        color: #191b1a;
+        filter: none;
       }
-    }
-
-    .active {
-      background-color: var(--primary-color);
-      color: #191b1a;
     }
   }
 
-  .category-masonry {
-    margin-bottom: -40px;
+  .slick-center {
+    img {
+      filter: none;
+    }
   }
 
-  .category-item {
-    margin-bottom: 40px;
-  }
-
-  .category__single {
-    align-items: center;
-    padding: 20px;
-    background-color: #100d21;
-    border-radius: 20px;
-
-    .thumb {
-      margin-bottom: 20px;
-      position: relative;
-
-      .thumb-img {
-        width: 100%;
-        overflow: hidden;
-        border-radius: 10px;
-        img {
-          min-height: 180px;
-          transition: var(--transition);
-          border-radius: 10px;
-          width: 100%;
-        }
-      }
-
-      .tag {
-        display: inline-flex;
-        align-items: center;
-        gap: 12px;
-        border-radius: 10px;
-        background-color: var(--primary-color);
-        color: #191b1a;
-        padding: 8px 16px;
-        font-size: 16px;
-        line-height: 30px;
-        position: absolute;
-        bottom: 12px;
-        left: 12px;
-        img {
-          border-radius: 10px;
-        }
-      }
-      .demo {
-        display: inline-flex;
-        align-items: center;
-        gap: 12px;
-        border-radius: 10px;
-        background: #000000;
-        color: white;
-        padding: 8px 16px;
-        font-size: 16px;
-        line-height: 30px;
-        position: absolute;
-        bottom: 12px;
-        left: 100px;
-        img {
-          border-radius: 10px;
-        }
-
-        &:hover {
-          background-color: var(--primary-color);
-          color: #191b1a;
-        }
-      }
-    }
-
-    .content {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      flex-wrap: wrap;
-      justify-content: space-between;
-
-      a {
-        font-weight: 600;
-        color: white;
-        &:hover {
-          color: var(--primary-color);
-        }
-      }
-    }
-
-    hr {
-      margin: 20px 0px;
-      background-color: #ffffff20;
-    }
-
-    .meta {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .meta-info {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      flex-wrap: wrap;
-
-      p {
-        color: white;
-      }
-
-      img {
-        @include box(40px);
-      }
-    }
-
-    .meta-review {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 4px;
-      i {
-        font-size: 14px;
-        color: #ffd584;
-        cursor: pointer;
-      }
-    }
-
-    &:hover {
-      .thumb-img {
-        img {
-          transform: scale(1.1);
-        }
-      }
+  .swiper-slide-active {
+    img {
+      filter: none;
     }
   }
 }
 
+
 nav {
-    header {
-      span::before {
-        color: blue;
-        opacity: 1;
-      }
-      span::after {
-        color: blue;
-        opacity: 1;
-      }
+  header {
+    span::before {
+      color: blue;
+      opacity: 1;
     }
+    span::after {
+      color: blue;
+      opacity: 1;
+    }
+  }
 }

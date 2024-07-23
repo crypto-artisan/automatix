@@ -129,7 +129,7 @@ export default function UseCase() {
                     {
                         usecases.map((usecase: any, index) => (
                             <SwiperSlide key={index} className='self-center partner__slider-single'>
-                                <div className='flex flex-col items-start text-left gap-2 rounded-xl border-1 border-[#0474f11a] p-1 lg:w-[300px] xl:w-[350px] h-[420px]'>
+                                <div className='card flex flex-col items-start text-left gap-2 rounded-xl border-1 border-[#0474f11a] p-1 lg:w-[300px] xl:w-[350px] h-[420px]'>
                                     <Image src={usecase.img} alt='usecase-img' width={350} height={200} className="rounded-xl" style={{ maxWidth: "100%", height: "250px", width: "100%" }} />
                                     <div className='space-y-2 text-theme-dark p-4'>
                                         <h1 className='text-[24px] leading-7'>{usecase.title}</h1>

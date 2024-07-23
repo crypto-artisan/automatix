@@ -41,7 +41,7 @@ export default function RoadMap() {
                     transition={{ duration: 1, delay: 0 }}
                     className="main-title md:w-1/2 w-full h-full"
                 >
-                    <div className="flex flex-col h-full text-theme-dark py-4 px-4 rounded-xl border-[2px] border-[#0474f11a]">
+                    <div className="card flex flex-col h-full text-theme-dark py-4 px-4 rounded-xl border-[2px] border-[#0474f11a]">
                         <h2 className="text-[24px]">Q3 2024</h2>
                         <p className="text-[18px]">
                             Launch of Automatix platform with core features including simplified AI deployment and customizable computing power bundles.
@@ -64,7 +64,7 @@ export default function RoadMap() {
                     transition={{ duration: 1, delay: 0 }}
                     className="main-title md:w-1/2 w-full h-full"
                 >
-                    <div className="flex flex-col h-full text-theme-dark py-4 px-4 rounded-xl border-[2px] border-[#0474f11a]">
+                    <div className="card flex flex-col h-full text-theme-dark py-4 px-4 rounded-xl border-[2px] border-[#0474f11a]">
                         <h2 className="text-[24px]">Q4 2024</h2>
                         <p className="text-[18px]">
                             Integration with additional cloud providers and enhanced security features.
@@ -89,7 +89,7 @@ export default function RoadMap() {
                     transition={{ duration: 1, delay: 0.2 }}
                     className="main-title md:w-1/2 w-full h-full"
                 >
-                    <div className="flex flex-col h-full text-theme-dark py-4 px-4 rounded-xl border-[2px] border-[#0474f11a]">
+                    <div className="card flex flex-col h-full text-theme-dark py-4 px-4 rounded-xl border-[2px] border-[#0474f11a]">
                         <h2 className="text-[24px]">Q1 2025</h2>
                         <p className="text-[18px]">
                             Expansion of supported AI applications and continuous improvement based on user feedback.
@@ -112,7 +112,7 @@ export default function RoadMap() {
                     transition={{ duration: 1, delay: 0.2 }}
                     className="main-title md:w-1/2 w-full h-full"
                 >
-                    <div className="flex flex-col h-full text-theme-dark py-4 px-4 rounded-xl border-[2px] border-[#0474f11a]">
+                    <div className="card flex flex-col h-full text-theme-dark py-4 px-4 rounded-xl border-[2px] border-[#0474f11a]">
                         <h2 className="text-[24px]">Q2 2025</h2>
                         <p className="text-[18px]">
                             Development of advanced AI integration capabilities and new user interface enhancements.
