@@ -1,1 +1,1 @@
-# John Zulhelmi Full Stack Blockchain Dev Portfolio Site
+# Automatix Landing Page
